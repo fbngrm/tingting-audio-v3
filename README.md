@@ -17,5 +17,5 @@ Served on GitHub Pages: `https://fbngrm.github.io/tingting-audio-v3/hsk{N}/...`
 Voices (edge-tts): per word, `zh-CN-XiaoxiaoNeural` (f) or `zh-CN-YunxiNeural` (m);
 index 0 of existing words is the reused HSK 2.0 clip (female). English uses the
 English voice. Generator: `tools/tingting-sentences-v3.go` (depends on the
-zh-audio `pkg/audio`). Missing: sentences 1 and 2 of 752 hsk2-6 words (mostly
-hsk5/hsk6), and all of hsk7 except 376 words.
+zh-audio `pkg/audio`), run with edge-tts 7.3.1 or newer. hsk1-6 are complete;
+hsk7 has clips for 376 words only.
