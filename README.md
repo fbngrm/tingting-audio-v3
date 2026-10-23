@@ -18,4 +18,6 @@ Voices (edge-tts): per word, `zh-CN-XiaoxiaoNeural` (f) or `zh-CN-YunxiNeural` (
 index 0 of existing words is the reused HSK 2.0 clip (female). English uses the
 English voice. Generator: `tools/tingting-sentences-v3.go` (depends on the
 zh-audio `pkg/audio`), run with edge-tts 7.3.1 or newer. hsk1-6 are complete;
-hsk7 has clips for 376 words only.
+hsk7 has one sentence per word with only its `_0_normal` clip: AISHELL-3 recordings
+(see `NOTICE.md`) where the corpus has a fitting sentence, edge-tts otherwise
+(tingting `scripts/hsk3/aishell-sentences.py`).

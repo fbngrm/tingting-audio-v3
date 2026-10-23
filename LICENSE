@@ -18,5 +18,9 @@ Third-party material
 Third-party material in this repository is not covered by this notice; it keeps its
 own license, and its rights stay with its owners.
 
-Third-party libraries, data and media keep their own licenses, as stated in their
-packages, source files or this repository's notices.
+It includes:
+
+- AISHELL-3 recordings (the HSK 7-9 clips listed in `NOTICE.md`): Apache License 2.0;
+  see `NOTICE.md` and `AISHELL3-LICENSE.txt`
+
+Any other third-party material keeps its own license as stated in its source.
